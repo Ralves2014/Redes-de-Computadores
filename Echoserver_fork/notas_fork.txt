@@ -1,0 +1,1 @@
+O cliente que nao chega em primeiro lugar fica à espera, por isso temos de utilizar o select. 

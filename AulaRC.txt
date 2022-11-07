@@ -1,0 +1,42 @@
+select(max_fds,readfs,writefs,errfs,timeout)
+max_fds=o numero maximo de ligaçoes
+timeout- se este valor for atingido o programa continua a execução
+
+FD_ZERO(SET) 
+garantir que esta vazio
+
+FD_SET(FD,SET)
+adiciona um filedescriptor(FD) a um set (SET)
+
+FD_CLR(FD,SET)
+vai remover um filedescriptor(FD) a um set(SET)
+
+FD_ISSET(FD,SET)
+para fazer uma validaçao se pudemos avançar com o nosso programa
+
+
+stdin - standard input
+
+------------------------------------------------------------------------------------
+
+ping www.uevora.pt
+
+ping -t 1 		// significa que so quer efetuar um salto
+
+traceroute www.uevora.pt
+
+man traceroute 		// manual do traceroute
+
+ntp (sincronizar a hora)
+
+socket (e um canal de comunicação entre as aplicações)
+
+TCP temos a confirmaçao ou nao que a informacao chegou ao cliente
+
+Cliente:
+criar o socket, nome, ip , porta e depois estabelecer a ligação , ler do socket
+
+Servidor:
+criar o socket, 
+
+ver emacs
